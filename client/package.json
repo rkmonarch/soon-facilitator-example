@@ -1,0 +1,24 @@
+{
+    "name": "x402-client",
+    "version": "1.0.0",
+    "main": "index.ts",
+    "license": "MIT",
+    "scripts": {
+      "dev": "ts-node index.ts",
+      "start": "node dist/index.js",
+      "build": "tsc"
+    },
+    "dependencies": {
+        "viem": "^2.21.26",
+        "crypto": "^1.0.1",
+       "fs": "^0.0.1-security"
+    },
+    "devDependencies": {
+      "ts-jest": "^29.1.0",
+      "ts-loader": "^9.4.3",
+      "ts-node": "^10.9.1",
+      "tsconfig-paths": "^4.2.0",
+      "typescript": "^5.1.3"
+    }
+  }
+  
