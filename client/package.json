@@ -5,13 +5,14 @@
     "license": "MIT",
     "scripts": {
       "dev": "ts-node index.ts",
-      "start": "node dist/index.js",
+      "start": "npx node index.ts",
       "build": "tsc"
     },
     "dependencies": {
-        "viem": "^2.21.26",
-        "crypto": "^1.0.1",
-       "fs": "^0.0.1-security"
+       "viem": "^2.21.26",
+       "crypto": "^1.0.1",
+       "fs": "^0.0.1-security",
+       "dotenv": "^16.4.7"
     },
     "devDependencies": {
       "ts-jest": "^29.1.0",

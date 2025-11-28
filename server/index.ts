@@ -3,12 +3,7 @@ import { paymentMiddleware } from "x402-express";
 import compression from "compression";
 import cors from "cors";
 import process from "process";
-
-// Define network enum if not imported
-const FacilitatorNetwork = {
-  BASE_SEPOLIA: "base-sepolia",
-  SOLANA_DEVNET: "solana-devnet",
-} as const;
+import { FacilitatorNetwork } from "./config";
 
 const app = express();
 
